@@ -17,7 +17,7 @@ function ParentComponent() {
 
   return (
     <div>
-      <h2>Todo List</h2>
+      <h1>Parent Component</h1>
       <ChildComponent todos={todos} onCompleteTodo={handleCompleteTodo} />
     </div>
   );
